@@ -73,3 +73,13 @@ standard header files supplied with it
 Header file include many different things 
 
 executable code normally goes into a source code file not a header file 
+
+				Displaying Output 
+
+In our first challenge, you should have noticed that there was a line of code that included the word "printf"
+
+printf() is a standard library function 
+
+use the include directive and use the output through the printf function 
+
+printf can be used for debugging 
