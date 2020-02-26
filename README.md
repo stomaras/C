@@ -118,3 +118,69 @@ String is a word
 
 Integer is a number 
 
+					Data Types
+
+-Remember that a program needs to store the instructions of its program and the data that its acts upon while your computer is 
+executing that program 
+
+	- This information is stored in memory RAM 
+	- RAM's contents are lost when the computer is turned off
+	- Hard Drives store persistent data 
+	
+-You can think of RAM as an ordered sequence of boxes 
+
+	- the box is full when it represents 1 or the box is empty when it represents 0
+	- each box represents one binary digit, either 0 ro 1 (true and false)
+	- each box is called a bit 
+	
+-bits in memory are grouped into sets of eight(byte)
+	- each byte has been labeled with a number (address)
+	- the address of a byte uniquely references that byte in your computer's memory 
+	
+-Again, memory consists of a large number of bits that are in groups of eight(called bytes)and each byte has a unique address
+
+					Variables 
+
+-The true power of programs you create is their manipulation of data 
+	- So, we need to understand the different data types you can use, as well as how to create and name variables
+	
+- Constants re types of data that do not change and retain their values throughout the life of the program
+
+- Variables are types of data may change or be assigned values as the program runs 
+
+- Variables are the names you give to computer memory locations which are used to store values in a computer program
+
+- For example, assume you want to store two values 10 and 20 in your program and at later stage, you want to use these 2 values:
+	-Create variables with appropriate names
+	-Store tour values in those 2 varibales
+	-Retrieve and use the stored values from the varibales 
+	
+							Naming Varibales
+							
+- The rules for naming varibales in C is that all names must begin with a letter or underscore(_)and can be followed by any combination
+  of letters(upper or lowercase), underscores, or the digits 0-9 
+ 
+ - Use meaningful names when selecting varibale names
+ 	- Can dramatically increase the readability of a program and pay off in the debug and documentation phases
+
+							Data Types 
+							
+- Some types of data in programs are numbers, letters or words
+	- Computer needs a way to identify and use these different kinds 
+	
+- A data type represents a type of the data which you can process using your program
+	- examples include ints, floats, doubles, e.t.c
+	- also correspond to byte sizes on the platform of your program
+
+primitive data types are types that are not objects and store all sorts of data
+
+							Declaring Variables 
+							
+- Declaring a variable is when tou specify the type of the variable followed by the variable name
+	- specifies to the compiler how a particular variable will be used by the program
+	
+- for example, the keyword int is used to declare the basic integer variable
+	- type-specifier variable-name;
+	
+
+
