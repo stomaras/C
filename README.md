@@ -182,5 +182,74 @@ primitive data types are types that are not objects and store all sorts of data
 - for example, the keyword int is used to declare the basic integer variable
 	- type-specifier variable-name;
 	
+- We understand that C supports many different types of variables and each type of variable is used for storing kind of data
+	- types that store integers
+	- types that store nonintegral numerical values
+	- types that store characters
+	
+- Some examples of basic data types in C are:
+	-int
+	-float
+	-double
+	-char
+	-Bool
+	
+- The difference between the types is in the amount of memory they occupy and the range of values they can hold 
+	- the amount of storage that is allocated to store a particular type of data
+	- depends on the computer you are running (machine-dependent)
+	- an integer might take up 32 bits on your computer, or perhaps it might be stored in 64
+	
+						Int
+						
+- A variable of type int can be used to contain integral values only(values that do not contain decimal places)
+
+- A minus sign preceding the data type and variable indicates that the value is negative 
+
+- the int type is a signed integer
+	- it must be an integer and it can be positive , negative, or zero 
+	
+- if an integer is preceded by a zero and the letter x (either lowercase or uppercase), the value is taken as being expressed
+  in hexadecimal(base 16) notation 
+  
+  	int rgbColor = 0xFFEF0D;
+
+- the values 158, -10, and 0 are all valid examples of integer constants
+	- no embedded spaces are permitted between the digits
+	- values larger than 999 cannot be expressed using commas(12,000 must be written as 12000)
+	
+						Float 
+						
+- A variable to be of type float can be used for storing floating-point numbers(values containing decimal places) 
+
+- the values 3., 125.8, and -.0001 are all valid examples of folating-point 
+  constants that can be assigned to a variable
+  
+ - floating-point constants can also be expressed in scientific notation
+ 	- 1.7e4 is a floating-point value expressed in this notation and represents the value 1.7 x 10 to the power of 4 
+	
+						Double 
+						
+- the double type is the same as type float, only with roughly twice the precision 
+	- used whenever the range provided by a float varibale is not sufficient
+	- can store twice as many significant digits 
+	- most computers represent double values using 64 bits 
+	
+- all floating-point constants are taken as double values by the C compiler 
+
+- To explicity express a float constant, append either an f or F to the End of the number 
+	- 12.5f
+	
+						_Bool
+						
+- the _Bool data type can be used to store just the values 0 or 1
+	- used for indicating an on/off, yes/no, or true/false situation(binary choices)
+	
+- _Bool variables are used in programs that need to indicate a Boolean condition 
+	- a variable of this type might be used to indicate whether all data has been read from a file 
+	
+- 0 is used to indicate aa false value
+
+- 1 indicates a true value 
+						
 
 
