@@ -250,6 +250,39 @@ primitive data types are types that are not objects and store all sorts of data
 - 0 is used to indicate aa false value
 
 - 1 indicates a true value 
+
+						Other Data Types 
+						
+- the int type will propably meet most of your integer needs when beginning in C 
+
+- However, C offers many other integer types 
+	- gives the programmer the option of matching a type to a particular use case
+	- integer types vary in the range of values offered and in whether negative numbers can be used
+	
+- C offers three adjective keywords to modify the basic integer type(can also be used by itsef)
+	- short, long, and unsigned
+	
+- The type short int, or short may use less storage than int ,thus saving space when only small numbers are needed
+	-can be used when the program needs a lot of memory and the amount of available memory is limited 
+	
+- The type long int, or long, may use more storage than int,thus enabling you to express larger integer values 
+
+- The type long long int, or long long may use more storage than long 
+	- A constant value of type long int is formed by optionally appending the letter L(upper-or lowercase) onto the end of an 		  integer constant
+		- long int numberOfPoints = 131071100L;
+		
+- Type specifiers can also be applied to doubles 
+	-long double US_deficit_2017;
+	
+- A log double constant is written as a floating constant with the letter l or L immediatly following
+	- 1.234e+7L
+	
+- The type unsigned int, or unsigned, is used for variables that have only nonnegatibe values(positive)
+	- unsigned int counter;
+	- the accuracy of the integer variable is extended
+	
+- The keyword signed can be used with any of the signed types to make your intent explicit
+	- short, short int, signed short, and signed short int are all names for the same type
 						
 
 
