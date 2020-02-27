@@ -410,10 +410,25 @@ char x = '\n';
 	
 - The percent character inside the first argument is a special character recognized by the printf() function 
 	- The character that immediatly follows the percent sign specifies what type of value is to be displayed 
-  
-						
+	
 
-
+				Type 			Constant Examples		printf chars
+					
+					
+  				char			'a','\n'
+				_Bool			 0, 1
+				short int		 --
+				unsigned short int  	 --
+				int			 12, -97
+				unsigned int
+				long int 
+				unsigned long int 
+				long long int 
+				unsigned long long int 
+				float
+				double 
+				long double
+				
 
 
 
