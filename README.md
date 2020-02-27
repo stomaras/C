@@ -347,11 +347,11 @@ primitive data types are types that are not objects and store all sorts of data
 	
 - We will talk about a character string in another lecture, much different than a single character 
 
-char broiled;  /* declare a char variable */
+		char broiled;  /* declare a char variable */
 
-broiled = 'T' /*OK */
-broiled = T; /* NO! thinks T is a variable */
-broiled = "T" /*N0! Thinks "T" is a string */
+		broiled = 'T' /*OK */
+		broiled = T; /* NO! thinks T is a variable */
+		broiled = "T" /*N0! Thinks "T" is a string */
 
 	- if you omit the quotes, the compiler thinks that T is the name of a varibale 
 	
