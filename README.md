@@ -375,23 +375,23 @@ broiled = "T" /*N0! Thinks "T" is a string */
 char x = '\n';
 
 
-Escape Characters
+						Escape Characters
 
-Sequence	Meaning 
+						Sequence	Meaning 
  
-\a		Alert( ANSI C).
-\b		Backspace
-\f		Form feed.
-\n		Newline
-\r		Carriage return 
-\t		Horizontal tab
-\v		Vertical tab
-\\		Backslash(\)
-\'		Single quote(')
-\"		Double quote(")
-\?		Question mark(?)
-\0oo		Octal value.(o represents an octal digit)
-\xhh		Hexadecimal value.(h represents a hecadecimal digit.)
-						
+						\a		Alert( ANSI C).
+						\b		Backspace
+						\f		Form feed.
+						\n		Newline
+						\r		Carriage return 
+						\t		Horizontal tab
+						\v		Vertical tab
+						\\		Backslash(\)
+						\'		Single quote(')
+						\"		Double quote(")
+						\?		Question mark(?)
+						\0oo		Octal value.(o represents an octal digit)
+						\xhh		Hexadecimal value.(h represents a hecadecimal digit.)
+
 
 
