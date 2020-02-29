@@ -448,6 +448,7 @@ char x = '\n';
 	- the first argument(argc for argument count) is an integer value that specifies the number of arguments typed on the cmd
 	- the second argument(argv for argument vector) is an array of character pointers(Strings)
 	
+
 - The first entryin this array is a pointer to the name of the program that is executing 
 
 
