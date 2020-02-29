@@ -452,6 +452,70 @@ char x = '\n';
 - The first entryin this array is a pointer to the name of the program that is executing 
 
 
+								Operators
+								
+- Operators are functions that use a symbolic name 
+	- perform mathematical or logical functions 
+	
+	
+- Operators are predefined in C, just like they are in most other languages, and most operators tend to be combined with the infix style 
+
+- A logical Operator (sometimes called a "Boolean operator") is an operator that returns a Boolean result that's based on the Boolean 
+  result of one or two other expressions 
+  
+ - An arithmetic operator is a mathematical function that takes two operands and performs a calculation on them 
+ 
+ - Other operators include assignment, relational(<,>,!=),bitwise(<<,>>,~)
+ 
+ 							Expressions and Statements 
+							
+- Statements form the basic program steps of C, and most statements are constructed from expressions 
+
+- An expression consists of a combinatioin of operators and operands 
+	- operands are what an operator operates on 
+	- operands can be constants, variables, or combinations of the two
+	- every expression has a value 
+	
+	-6
+	4+21
+	a*(b + c/d)/20
+	q= 5*2
+	x = ++q%3
+	q>3
+	
+	
+Statements are the building blocks of a program(declaration)
+	A program is a series of statements with special syntax ending with a semicolon(simple statements)
+	A complete instruction to the computer 
+	
+Declaration Statement: int Jason;
+Assignment Statement: Jason = 5;
+Function Call Statement: printf("Jason")
+Structure Statement: while(Jason < 20) Jason = Jason + 1;
+Return Statement: return 0;
+
+
+- two or more statements grouped together by 
+  enclosing them in braces(block)
+  
+  						
+						int index = 0;
+						while(index < 10)
+						{
+							printf("hello");
+							index = index + 1;
+						}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
