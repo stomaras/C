@@ -431,6 +431,24 @@ char x = '\n';
 				
 
 
+							Command Line Arguments 
+
+- There are times when a program is developed yhat requires the user to enter a small amount of information at the terminal 
+- This information might consist of a number indicating the triangular number that you want to have calculated or a word that you want 
+  to have looked up in a dictionary 
+  
+ - Two ways of handling this 
+ 	- Requesting the data from the user 
+	- supply the information to the program at the time the program is executed(command-line-arguments)
+	
+- We know that the main() function is a special program in C
+	- Entry point of the program 
+	
+- When main() is called by the runtime system, two arguments are actually passed to the function 
+	- the first argument(argc for argument count) is an integer value that specifies the number of arguments typed on the cmd
+	- the second argument(argv for argument vector) is an array of character pointers(Strings)
+	
+- The first entryin this array is a pointer to the name of the program that is executing 
 
 
 
