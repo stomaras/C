@@ -505,10 +505,36 @@ Return Statement: return 0;
 							printf("hello");
 							index = index + 1;
 						}
+						
+						Basic Operators 
+						
+- An arithmetic operator is a mathematical function that takes two operands and performs a calculation on them 
 
+- A logical operator("sometimes called a "Boolean Operator") is an operator that returns a Boolean result that's based on the Boolean 	   result of one or two other expressions 
 
-
-
+- Assignment operators set variables equal to values 
+	- assigns the value of the expression at its right to the variable at its left 
+	
+						Arithmetic Operators in C 
+						
+				Operator		Description 		 `	Example
+				   +			Adds 2 operands		 	 A+B = 30 
+				   
+				   -			Substracts second 	 	 A-B = 30
+				   			operand from the first	
+							
+				   *			Multiplies both operands  	 A*B = 30
+				   
+				   /			Divide numerator by de-numerator  B/A = 2
+				   
+				   %			Modulus operator and remainder
+				   			of after an integer division	 B%A= 0
+							
+				   ++			Increment operator increases 
+				   			the integer value by one 	A++ = 11
+							
+				   --			Decrement operator decreases 
+				   			the integer value by one 	A-- = 10
 
 
 
