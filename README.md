@@ -535,7 +535,24 @@ Return Statement: return 0;
 							
 				   --			Decrement operator decreases 
 				   			the integer value by one 	A-- = 10
-
+							
+							
+									Logical Operators 
+							
+				Operator				Description				Example 
+				
+				&&				Called Logical And operator.			(A&&B)is false
+								If both the operands is non-zero
+								,then the condition becomes true
+				
+				||				Called Logical OR operator.If any 
+								of the operands are non-zero then the 		(A||B)is True
+								condition becomes true				
+				
+				!				Called Logical NOT Operator.it is used 
+								to reverse the logical state of its operand	!(A && B)is True
+								.if a condition is true ,then logical NOT 
+								operator will make it false
 
 
 
