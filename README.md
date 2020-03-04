@@ -556,7 +556,45 @@ Return Statement: return 0;
 
 
 
+								Bitwise Operators 
+								
+- C offers bitwise logical operators and shift operators 
+	- look something like the logical operators you saw earlier but are quite different
+	- operate on the bits in integer values 
+	
+- Not used in the common program 
 
+- One major use of the bitwise AND, &, and the bitwise OR, |, is in operations to test and set individual bits in an integer variable 
+	- can use individual bits to store data that involve one of two choices 
+	
+- You could use a single integer variable to store several characteristics of a person.
+	- store whether the person is male or female with one bit 
+	- use three bits to specify whether the person can speak French, German, or italian
+	- another bit to record whether the person's salary is $50,000 or more 
+	- in just four  bits you have a substantial set of data recorded
+	
+							
+			Operator			Description						Example
+			
+			
+			&				Binary AND Opertor copies a bit to the result if it      (A&B) =12 
+							exists in both operands.				
+			
+			|				Binary OR Operator copies a bit if it exists in either   (A | B) = 61
+							operand							
+							
+			^				Binary XOR Operator copies the bit if it is set in one	(A^B) = 49
+							operand but not both
+			
+			~				Binary Ones Complement Operator is unary and has the	(~A) = -61
+							effect of 'flipping bits'				
+			
+			<<				Binary Left Shift Operator.The left operands value is 
+							moved left by the num of bits specified by the right operand
+			
+			>>				Binary Right Shift Operator.The left operands value is 
+							moved right by the number of bits specified by the right
+							operand
 
 
 
