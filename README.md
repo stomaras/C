@@ -659,6 +659,44 @@ Return Statement: return 0;
 - ?: is an operator used for comparisons
 	- if condition is true ? then value X : otherwise value Y 
 	- name is the ternary operator
+	
+						Operator Precedence
+						
+- Opearator precedence determines the grouping of terms in an expression and decides how an expression is evaluated
+	- dictates the order of evaluation when two operators share an operand 
+	- certain operators have higher precedence than others 
+	- for example, the multiplication operator has a higher precedence than the addition operator 
+	
+	x = 7 + 3 * 2;
+	
+- Can result in 13 or 20 dependeing on the order of each operands evaluation 
+
+- the order of executing the various operations can make a difference, so C needs unambiguous rules for choosing what to do first 
+
+- Each operator is assigned a precedence level 
+	- multiplication and division have a higher precedence than addition and subtraction, so they are performed first 
+	
+- Whatever is enclosed in parenthesis is executed first, should just always use () to group expressions 
+
+
+						Table(highest to lowest) 
+						
+			Category 		Operator		Associativity
+			
+			
+			Postfix			()[]->.++--		Left to right
+			
+			Unary			+-!~++--(type)*&sizeof  Right to left
+			
+			Multiplicative		*/%			Left to right
+			
+			Additive		+-			Left to right
+			
+			Shift			<<>>			Left to right
+			
+			Relational		<<=>>=			Left to right
+			
+			Equality		== !=			Left to right
 
 
 
